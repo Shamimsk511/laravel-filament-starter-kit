@@ -19,22 +19,22 @@ laravel new test-kit --using=ercogx/laravel-filament-starter-kit
 
 2️⃣ **Run Migrations**
 ```bash
-   php artisan migrate
+php artisan migrate
 ````
 
 3️⃣ Create Filament Admin User
 ```bash
-   php artisan make:filament-user
+php artisan make:filament-user
 ```
 
 4️⃣ Assign Super Admin Role
 ```bash
-   php artisan shield:super-admin --user=1 --panel=admin
+php artisan shield:super-admin --user=1 --panel=admin
 ```
 
 5️⃣ Generate Permissions
 ```bash
-   php artisan shield:generate --all --ignore-existing-policies --panel=admin
+php artisan shield:generate --all --ignore-existing-policies --panel=admin
 ```
 
 ## 🌟Panel Include 
