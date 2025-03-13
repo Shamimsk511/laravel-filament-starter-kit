@@ -9,6 +9,7 @@
         "php": "^8.2",
         "bezhansalleh/filament-shield": "^3.3",
         "filament/filament": "^3.2",
+        "hasnayeen/themes": "3.x-dev",
         "jeffgreco13/filament-breezy": "^2.6",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
@@ -82,6 +83,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
