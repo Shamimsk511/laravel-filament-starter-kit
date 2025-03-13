@@ -1,7 +1,8 @@
-# 🚀 Laravel Filament Starter Kit
+# 🚀 Ercogx Starter Kit
 
 This is a **Filament v3 Starter Kit** for **Laravel 12**, designed to accelerate the development of Filament-powered applications.
 
+![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview-white.png)
 ![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview.png)
 
 ## 📦 Installation
