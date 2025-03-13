@@ -2,15 +2,19 @@
 
 namespace App\Providers;
 
+use App\Policies\ActivityPolicy;
 use BezhanSalleh\FilamentShield\FilamentShield;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
+use Spatie\Activitylog\Models\Activity;
 
 class AppServiceProvider extends ServiceProvider
 {
-    protected array $policies = [];
+    protected array $policies = [
+        Activity::class => ActivityPolicy::class,
+    ];
 
     public function register(): void
     {
