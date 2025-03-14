@@ -2,7 +2,9 @@
 
 This is a **Filament v3 Starter Kit** for **Laravel 12**, designed to accelerate the development of Filament-powered applications.
 
+Preview:
 ![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview-white.png)
+Dark Mode:
 ![](https://raw.githubusercontent.com/ercogx/laravel-filament-starter-kit/main/preview.png)
 
 ## 📦 Installation
