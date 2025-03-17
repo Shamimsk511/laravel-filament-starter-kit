@@ -2,8 +2,8 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "ercogx/laravel-filament-starter-kit",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "This is a Filament v3 Starter Kit for Laravel 12, designed to accelerate the development of Filament-powered applications.",
+    "keywords": ["laravel", "framework", "glow starter kit", "livewire", "filament"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
