@@ -9,7 +9,13 @@ Dark Mode:
 
 ## 📦 Installation
 
-Follow these steps to install and set up the Laravel Filament Starter Kit.
+You need the Laravel Installer if it is not yet installed.
+
+```bash
+composer global require laravel/installer
+```
+
+Now you can create a new project using the Laravel Filament Starter Kit.
 
 ```bash
 laravel new test-kit --using=ercogx/laravel-filament-starter-kit
