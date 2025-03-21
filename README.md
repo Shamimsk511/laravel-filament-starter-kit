@@ -24,24 +24,24 @@ laravel new test-kit --using=ercogx/laravel-filament-starter-kit
 ## ⚙️ Setup
 
 1️⃣ **Database Configuration**
-- If using **MySQL**, update database credentials in `.env`.
 
-2️⃣ **Run Migrations**
-```bash
-php artisan migrate
-````
+By default, this starter kit uses **SQLite**. If you’re okay with this, you can skip this step. If you prefer **MySQL**, follow these steps:
 
-3️⃣ Create Filament Admin User
+- Update your database credentials in `.env`
+- Run migrations: `php artisan migrate`
+- (Optional) delete the existing database file: ```rm database/database.sqlite```
+
+2️⃣ Create Filament Admin User
 ```bash
 php artisan make:filament-user
 ```
 
-4️⃣ Assign Super Admin Role
+3️⃣ Assign Super Admin Role
 ```bash
 php artisan shield:super-admin --user=1 --panel=admin
 ```
 
-5️⃣ Generate Permissions
+4️⃣ Generate Permissions
 ```bash
 php artisan shield:generate --all --ignore-existing-policies --panel=admin
 ```
