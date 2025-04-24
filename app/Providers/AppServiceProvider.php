@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Policies\ActivityPolicy;
 use BezhanSalleh\FilamentShield\FilamentShield;
+use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
@@ -54,5 +55,7 @@ class AppServiceProvider extends ServiceProvider
     private function configureFilament(): void
     {
         FilamentShield::prohibitDestructiveCommands($this->app->isProduction());
+
+        Table::configureUsing(fn (Table $table) => $table->paginationPageOptions([10, 25, 50]));
     }
 }
